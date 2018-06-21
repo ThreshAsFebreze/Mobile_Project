@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:srcCompat="@drawable/cgmap" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Common Grounds is your only student owned and operated coffee shop on campus striving for superior environmental and ethical standards. We offer fairly traded organic espresso, biodegradable cups and containers, living wages for student employees, and extended hours of service for when you need us most. Members can be proud of our high environmental standards. Our local coffee and soup cups are made from 100% renewable resources – not petroleum – and are compostable in as little as 45 days! Our biodegradable cutlery is made from GMO-free potato-based resins. And best of all, if you bring your own reusable mug, you get a 50¢ discount!"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/about" />
+
+</RelativeLayout>

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MobileProject</string>
+
+    <string-array name="menu_items">
+        <item>Hot Beverages</item>
+        <item>Cold Beverages</item>
+        <item>Food</item>
+
+    </string-array>
+
 </resources>
